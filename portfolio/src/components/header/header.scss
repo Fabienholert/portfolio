@@ -3,10 +3,11 @@ header {
   flex-direction: row-reverse;
   margin: 0 auto;
   border: solid 1px #56ba9f;
+  gap: 30px;
 
   img {
-    width: 5%;
-    height: 3%;
+    width: 3%;
+    padding: 10px;
   }
   .header__nav {
     display: flex;
