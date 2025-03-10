@@ -1,4 +1,11 @@
 .home {
-  width: 100%;
-  background-color: #f4fbf7;
+  &__container {
+    width: 100%;
+    background-color: #f4fbf7;
+  }
+
+  &__nom {
+    font-size: 116px;
+    color: #208368;
+  }
 }
