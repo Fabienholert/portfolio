@@ -1,0 +1,23 @@
+header {
+  display: flex;
+  flex-direction: row-reverse;
+  margin: 0 auto;
+  border: solid 1px #56ba9f;
+
+  img {
+    width: 5%;
+    height: 3%;
+  }
+  .header__nav {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    align-items: center;
+  }
+
+  .header__link {
+    text-decoration: none;
+    color: #208368;
+    font-size: larger;
+  }
+}
