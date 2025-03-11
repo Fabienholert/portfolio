@@ -3,7 +3,9 @@ export default function Section() {
     <div>
       <h3 className="Section__frontEnd">
         Front-end
-        <p>Langages : Javascript </p>
+        <p>
+          <strong>Langages :</strong> Javascript{" "}
+        </p>
         <p>Frameworks et Bibliothèques: React </p>
         <p>Intégration Web: HTML , CSS , SASS</p>
       </h3>
