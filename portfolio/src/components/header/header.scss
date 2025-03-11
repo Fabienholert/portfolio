@@ -1,14 +1,14 @@
-header {
+.header {
   display: flex;
   flex-direction: row-reverse;
   margin: 0 auto;
   gap: 30px;
 
-  img {
+  &__logoReseaux {
     width: 3%;
     padding-top: 10px;
   }
-  .header__nav {
+  &__nav {
     display: flex;
     flex-direction: row;
     gap: 30px;
@@ -19,5 +19,9 @@ header {
     text-decoration: none;
     color: #208368;
     font-size: larger;
+  }
+  &__monLogo {
+    width: 100px;
+    height: 100px;
   }
 }
