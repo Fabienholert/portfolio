@@ -1,0 +1,18 @@
+.Section {
+  &__Container {
+    display: flex;
+    gap: 60px;
+    margin: 0 auto;
+    justify-content: space-evenly;
+
+    h3 {
+      color: black;
+      font-size: 30px;
+    }
+
+    p {
+      color: #208368;
+      font-size: medium;
+    }
+  }
+}

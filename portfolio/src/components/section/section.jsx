@@ -1,6 +1,8 @@
+import "./section.scss";
+
 export default function Section() {
   return (
-    <div>
+    <div className="Section__Container">
       <h3 className="Section__frontEnd">
         Front-end
         <p>
@@ -25,7 +27,7 @@ export default function Section() {
           <strong>API:</strong> Création et consommation d'API REST
         </p>
       </h3>
-      <h3 className="Outils">
+      <h3 className="Section__Outils">
         Outils
         <p>
           <strong>Gestion de version:</strong> Git, Github
