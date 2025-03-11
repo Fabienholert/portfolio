@@ -6,19 +6,33 @@ export default function Section() {
         <p>
           <strong>Langages :</strong> Javascript{" "}
         </p>
-        <p>Frameworks et Bibliothèques: React </p>
-        <p>Intégration Web: HTML , CSS , SASS</p>
+        <p>
+          <strong>Frameworks et Bibliothèques:</strong> React{" "}
+        </p>
+        <p>
+          <strong>Intégration Web:</strong> HTML , CSS , SASS
+        </p>
       </h3>
       <h3 className="Section__Backend">
         Back-end
-        <p>Langages et Frameworks: Nodejs, Express.js</p>
-        <p>Base de Données: MongoDB</p>
-        <p>API: Création et consommation d'API REST</p>
+        <p>
+          <strong>Langages et Frameworks:</strong> Nodejs, Express.js
+        </p>
+        <p>
+          <strong>Base de Données:</strong> MongoDB
+        </p>
+        <p>
+          <strong>API:</strong> Création et consommation d'API REST
+        </p>
       </h3>
       <h3 className="Outils">
         Outils
-        <p>Gestion de version: Git, Github</p>
-        <p>Environnements: Visual Studio Code , Github</p>
+        <p>
+          <strong>Gestion de version:</strong> Git, Github
+        </p>
+        <p>
+          <strong>Environnements:</strong> Visual Studio Code , Github
+        </p>
       </h3>
     </div>
   );
