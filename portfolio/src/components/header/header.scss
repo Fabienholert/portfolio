@@ -1,14 +1,16 @@
-.header {
+header {
   display: flex;
   flex-direction: row-reverse;
   margin: 0 auto;
   gap: 30px;
 
-  &__logoReseaux {
+  .header__logoreseaux img {
     width: 3%;
     padding-top: 10px;
+    display: flex;
   }
-  &__nav {
+
+  .header__nav {
     display: flex;
     flex-direction: row;
     gap: 30px;
@@ -20,8 +22,9 @@
     color: #208368;
     font-size: larger;
   }
-  &__monLogo {
-    width: 100px;
-    height: 100px;
+
+  .header__monLogo {
+    width: 200px;
+    height: 200px;
   }
 }

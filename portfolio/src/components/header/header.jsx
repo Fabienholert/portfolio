@@ -7,7 +7,7 @@ import "./header.scss";
 export default function Header() {
   return (
     <header className="header">
-      <div className="logoReseaux">
+      <div className="header__logoreseaux">
         <img src={LogoGit} alt="logo gitHub" className="header__logoGit" />
         <img src={LogoLink} alt="logo Linkedin" className="header__logoLink" />
       </div>
