@@ -1,12 +1,21 @@
 .header {
   display: flex;
   flex-direction: row-reverse;
+  justify-content: space-between;
   margin: 0 auto;
   gap: 30px;
 
   &__logoreseaux {
-    width: 3%;
-    padding-top: 10px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin-right: 10px;
+
+    img {
+      width: 30px;
+      padding-top: 10px;
+    }
   }
 
   &__nav {
@@ -23,7 +32,7 @@
   }
 
   &__monLogo {
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
   }
 }

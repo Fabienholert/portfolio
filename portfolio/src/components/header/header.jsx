@@ -8,8 +8,8 @@ export default function Header() {
   return (
     <header className="header">
       <div className="header__logoreseaux">
-        <img src={LogoGit} alt="logo gitHub" className="header__logoGit" />
-        <img src={LogoLink} alt="logo Linkedin" className="header__logoLink" />
+        <img src={LogoGit} alt="logoGitHub" className="header__logoGit" />
+        <img src={LogoLink} alt="logoLinkedin" className="header__logoLink" />
       </div>
       <nav className="header__nav">
         <NavLink to="/" className="header__link">
