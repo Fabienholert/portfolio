@@ -1,16 +1,10 @@
 import { NavLink } from "react-router-dom";
-import LogoGit from "../../assets/logogit.png";
-import LogoLink from "../../assets/logolink.png";
 import MonLogo from "../../assets/monlogo.png";
 import "./header.scss";
 
 export default function Header() {
   return (
     <header className="header">
-      <div className="header__logoreseaux">
-        <img src={LogoGit} alt="logoGitHub" className="header__logoGit" />
-        <img src={LogoLink} alt="logoLinkedin" className="header__logoLink" />
-      </div>
       <nav className="header__nav">
         <NavLink to="/" className="header__link">
           {" "}
