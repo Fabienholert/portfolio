@@ -1,3 +1,4 @@
+import Card from "../card/card";
 import "./section.scss";
 
 export default function Section() {
@@ -36,6 +37,7 @@ export default function Section() {
           <strong>Environnements:</strong> Visual Studio Code , Github
         </p>
       </h3>
+      <Card />
     </div>
   );
 }
