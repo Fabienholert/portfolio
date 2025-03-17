@@ -8,4 +8,13 @@
       "Lucida Sans", Arial, sans-serif;
     margin-left: 10%;
   }
+
+  &__photo {
+    width: 15%; // Remplacez par votre taille
+    height: 150px; // Assurez-vous que la hauteur est égale à la largeur
+    border-radius: 50%;
+    object-fit: cover;
+    display: flex;
+    margin-left: 20%;
+  }
 }
