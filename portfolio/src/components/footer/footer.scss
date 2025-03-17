@@ -2,10 +2,10 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-between;
-  width: 90%;
   margin: 0 auto;
-  height: 50px;
+  height: 100px;
+  background: #8bceb6;
+  border-radius: 10px;
 
   .footer__logoreseaux {
     display: flex;
