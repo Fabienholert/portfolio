@@ -7,32 +7,20 @@
   background: #8bceb6;
   border-radius: 10px;
 
-  &__logoreseaux {
-    width: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: end;
-    margin-right: 10px;
-    gap: 20px;
-
-    img {
-      width: 30px;
-      padding-top: 10px;
-    }
-  }
-
   &__nav {
     display: flex;
     flex-direction: row;
     gap: 30px;
     align-items: center;
-    margin: 0 auto;
+    margin-right: 2%;
   }
 
   &__link {
     text-decoration: none;
     color: #208368;
     font-size: larger;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
   }
 
   &__monLogo {
