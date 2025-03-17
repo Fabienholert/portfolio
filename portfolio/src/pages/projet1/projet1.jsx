@@ -1,85 +1,60 @@
-import React, { useEffect, useState } from "react";
-
-const BubbleBackground = () => {
-  const [bubbles, setBubbles] = useState([]);
-
-  useEffect(() => {
-    // Créer des bulles au chargement du composant
-    const bubbleCount = 50; // Nombre de bulles
-    const newBubbles = [];
-
-    for (let i = 0; i < bubbleCount; i++) {
-      newBubbles.push({
-        id: i,
-        left: Math.random() * 100, // Position horizontale en %
-        size: Math.random() * 5 + 1, // Taille entre 1 et 6 rem
-        animationDuration: Math.random() * 15 + 10, // Durée entre 10 et 25 secondes
-        opacity: Math.random() * 0.3 + 0.1, // Opacité entre 0.1 et 0.4
-      });
-    }
-
-    setBubbles(newBubbles);
-  }, []);
-
+export default function Projet1() {
   return (
-    <div className="bubble-container">
-      {bubbles.map((bubble) => (
-        <div
-          key={bubble.id}
-          className="bubble"
-          style={{
-            left: `${bubble.left}%`,
-            width: `${bubble.size}rem`,
-            height: `${bubble.size}rem`,
-            animationDuration: `${bubble.animationDuration}s`,
-            opacity: bubble.opacity,
-          }}
-        />
-      ))}
-
-      <style jsx>{`
-        .bubble-container {
-          position: fixed;
-          top: 0;
-          left: 0;
-          width: 100vw;
-          height: 100vh;
-          overflow: hidden;
-          z-index: -1;
-          background: linear-gradient(to bottom, #1e3c72, #2a5298);
-        }
-
-        .bubble {
-          position: absolute;
-          bottom: -10%;
-          background-color: white;
-          border-radius: 50%;
-          animation-name: rise;
-          animation-timing-function: ease-in-out;
-          animation-iteration-count: infinite;
-        }
-
-        @keyframes rise {
-          0% {
-            transform: translateY(0) scale(1);
-            bottom: -10%;
-            opacity: 0;
-          }
-          10% {
-            opacity: calc(var(--bubble-opacity, 0.3));
-          }
-          90% {
-            opacity: calc(var(--bubble-opacity, 0.3));
-          }
-          100% {
-            transform: translateY(-100vh) scale(0.8);
-            bottom: 100%;
-            opacity: 0;
-          }
-        }
-      `}</style>
-    </div>
+    <p>
+      <h3>Réalisations :</h3>
+      <p>
+        Développement de l'application React : Création de l'ensemble de
+        l'application React à partir de zéro, en respectant les maquettes Figma
+        fournies par le designer. Implémentation des composants React :
+        Conception et développement de tous les composants React nécessaires, en
+        suivant une approche modulaire et réutilisable. Gestion des routes avec
+        React Router : Mise en place d'un système de routage robuste pour
+        permettre une navigation fluide et intuitive entre les différentes pages
+        du site. Intégration des données : Utilisation d'un fichier JSON
+        contenant les données des annonces de logements pour alimenter
+        l'application, en attendant la mise en place du backend. Respect des
+        contraintes techniques et des coding guidelines : Adhésion aux coding
+        guidelines de Kasa et utilisation de Vite comme outil de build.
+        Implémentation des fonctionnalités spécifiques : Défilement infini de la
+        galerie d'images avec gestion des cas limites (une seule image,
+        première/dernière image). Fonctionnalité de Collapse (accordéon) avec
+        ouverture et fermeture des sections au clic. Adaptation de l'interface
+        pour différents écrans (responsive design).{" "}
+      </p>
+      <h3> Problématiques rencontrées et solutions :</h3>
+      <p>
+        Absence de backend : Face à l'absence temporaire de backend, j'ai dû
+        trouver une solution pour simuler les données et permettre le
+        développement du front-end. J'ai utilisé le fichier JSON fourni et des
+        variables d'état React pour gérer les données de manière dynamique.
+        Respect des délais : La refonte complète du site était un projet
+        ambitieux avec des délais serrés. J'ai dû m'organiser efficacement,
+        prioriser les tâches et communiquer régulièrement avec l'équipe pour
+        m'assurer de respecter les échéances. Complexité des fonctionnalités :
+        Certaines fonctionnalités, comme le défilement infini de la galerie
+        d'images, présentaient des défis techniques. J'ai dû faire des
+        recherches approfondies, expérimenter différentes approches et
+        collaborer avec d'autres développeurs pour trouver les meilleures
+        solutions. Comprendre les besoins de l'entreprise : Au delà des
+        contraintes techniques, il a fallu saisir les enjeux de Kasa, comprendre
+        les utilisateurs et anticiper les éventuels problèmes.{" "}
+      </p>
+      <h3>Compétences développées :</h3>
+      <p>
+        Maîtrise de React : Renforcement de mes compétences en React, notamment
+        dans la création de composants réutilisables, la gestion de l'état et
+        l'utilisation de React Router. Gestion de projet front-end :
+        Amélioration de mes compétences en gestion de projet front-end,
+        notamment dans la planification, l'organisation et le suivi des tâches.
+        Collaboration : Développement de mes compétences en collaboration avec
+        d'autres développeurs, designers et chefs de projet. Résolution de
+        problèmes : Amélioration de mes compétences en résolution de problèmes
+        techniques, notamment dans la recherche de solutions, l'expérimentation
+        et la collaboration. Autonomie : Renforcement de mon autonomie dans la
+        gestion de projet en freelance, notamment dans la prise de décision, la
+        communication et la gestion du temps. Travail en équipe : L'expérience
+        en freelance m'a permis de mieux cerner les rouages d'une entreprise.
+      </p>
+    </p>
   );
-};
-
-export default BubbleBackground;
+}

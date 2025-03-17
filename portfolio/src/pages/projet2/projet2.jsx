@@ -1,85 +1,55 @@
-import React, { useEffect, useState } from "react";
-
-const BubbleBackground = () => {
-  const [bubbles, setBubbles] = useState([]);
-
-  useEffect(() => {
-    // Créer des bulles au chargement du composant
-    const bubbleCount = 50; // Nombre de bulles
-    const newBubbles = [];
-
-    for (let i = 0; i < bubbleCount; i++) {
-      newBubbles.push({
-        id: i,
-        left: Math.random() * 100, // Position horizontale en %
-        size: Math.random() * 5 + 1, // Taille entre 1 et 6 rem
-        animationDuration: Math.random() * 15 + 10, // Durée entre 10 et 25 secondes
-        opacity: Math.random() * 0.3 + 0.1, // Opacité entre 0.1 et 0.4
-      });
-    }
-
-    setBubbles(newBubbles);
-  }, []);
-
+export default function Projet2() {
   return (
-    <div className="bubble-container">
-      {bubbles.map((bubble) => (
-        <div
-          key={bubble.id}
-          className="bubble"
-          style={{
-            left: `${bubble.left}%`,
-            width: `${bubble.size}rem`,
-            height: `${bubble.size}rem`,
-            animationDuration: `${bubble.animationDuration}s`,
-            opacity: bubble.opacity,
-          }}
-        />
-      ))}
-
-      <style jsx>{`
-        .bubble-container {
-          position: fixed;
-          top: 0;
-          left: 0;
-          width: 100vw;
-          height: 100vh;
-          overflow: hidden;
-          z-index: -1;
-          background: linear-gradient(to bottom, #1e3c72, #2a5298);
-        }
-
-        .bubble {
-          position: absolute;
-          bottom: -10%;
-          background-color: white;
-          border-radius: 50%;
-          animation-name: rise;
-          animation-timing-function: ease-in-out;
-          animation-iteration-count: infinite;
-        }
-
-        @keyframes rise {
-          0% {
-            transform: translateY(0) scale(1);
-            bottom: -10%;
-            opacity: 0;
-          }
-          10% {
-            opacity: calc(var(--bubble-opacity, 0.3));
-          }
-          90% {
-            opacity: calc(var(--bubble-opacity, 0.3));
-          }
-          100% {
-            transform: translateY(-100vh) scale(0.8);
-            bottom: 100%;
-            opacity: 0;
-          }
-        }
-      `}</style>
-    </div>
+    <p>
+      Réalisations : Conception de l'API : Sur la base des spécifications
+      techniques fournies, j'ai conçu une API RESTful complète pour gérer les
+      livres, les utilisateurs, les notes et les commentaires. Développement du
+      back-end : J'ai mis en œuvre l'API en utilisant [Choisissez ici votre
+      technologie back-end préférée : Node.js avec Express, Python avec
+      Flask/Django, etc.]. Cela comprenait la création de routes, la gestion des
+      requêtes HTTP, la validation des données et l'interaction avec une base de
+      données [Choisissez ici votre base de données : MongoDB, PostgreSQL,
+      MySQL, etc.]. Gestion des utilisateurs : J'ai intégré un système
+      d'authentification et d'autorisation pour gérer les utilisateurs, leurs
+      rôles et leurs permissions. Optimisation des images : J'ai implémenté une
+      fonctionnalité d'optimisation des images côté serveur pour réduire leur
+      taille et améliorer les performances du site, en tenant compte des
+      principes du Green Code. Tests unitaires et d'intégration : J'ai écrit des
+      tests unitaires et d'intégration pour garantir la qualité et la fiabilité
+      de l'API. Déploiement : J'ai déployé l'API sur un serveur [Choisissez
+      votre plateforme de déploiement : Heroku, AWS, Google Cloud, etc.] et
+      configuré les paramètres nécessaires pour une performance optimale.
+      Problématiques rencontrées et solutions : Compréhension des besoins du
+      front-end : Bien que le front-end ait été développé en parallèle, il était
+      essentiel de comprendre ses besoins spécifiques pour concevoir une API
+      adaptée. J'ai maintenu une communication régulière avec le développeur
+      front-end pour clarifier les exigences et résoudre les problèmes
+      éventuels. Optimisation des images : L'optimisation des images était un
+      défi technique, car il fallait trouver un équilibre entre la réduction de
+      la taille des fichiers et le maintien d'une qualité visuelle acceptable.
+      J'ai exploré différentes bibliothèques d'optimisation d'images et choisi
+      celle qui répondait le mieux aux besoins du projet. Scalabilité : Il était
+      important de concevoir l'API de manière à ce qu'elle puisse gérer un
+      nombre croissant d'utilisateurs et de données. J'ai utilisé des techniques
+      telles que la mise en cache et l'optimisation des requêtes de base de
+      données pour améliorer la scalabilité. La conformité au Green Code : La
+      réduction de la taille des images a permis de rendre le site moins
+      "gourmand" en ressource et donc moins impactant. Compétences développées :
+      Développement d'API RESTful : J'ai acquis une solide expérience dans la
+      conception et le développement d'API RESTful en utilisant [Votre
+      technologie back-end]. Gestion de base de données : J'ai amélioré mes
+      compétences dans la gestion de bases de données [Votre base de données],
+      notamment dans la conception de schémas, l'optimisation des requêtes et la
+      gestion des transactions. Authentification et autorisation : J'ai appris à
+      mettre en œuvre des systèmes d'authentification et d'autorisation
+      sécurisés pour protéger les données des utilisateurs. Optimisation des
+      performances : J'ai développé des compétences en optimisation des
+      performances, notamment dans la mise en cache, l'optimisation des requêtes
+      et la réduction de la taille des fichiers. Collaboration : J'ai renforcé
+      mes compétences en collaboration avec d'autres développeurs, notamment
+      dans la communication, la résolution de problèmes et le partage de
+      connaissances. Green Code : Intégration des pratiques du Green Code dans
+      un projet, et les bénéfices que cela peut apporter.
+    </p>
   );
-};
-
-export default BubbleBackground;
+}
