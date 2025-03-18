@@ -1,4 +1,5 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+import "./App.scss";
 import Layout from "./layout.jsx";
 import Home from "./pages/Home/Home.jsx";
 import Projet1 from "./pages/projet1/projet1.jsx";
