@@ -10,8 +10,13 @@
       font-size: 30px;
     }
 
-    p {
-      color: #208368;
+    ul {
+      transform: translate3d(-247.5%, 0px, 0px);
+      transition-duration: 350ms;
+    }
+
+    li {
+      color: black;
       font-size: medium;
     }
   }
