@@ -1,10 +1,9 @@
-import Card from "../card/card";
 import "./section.scss";
 
 export default function Section() {
   return (
-    <div className="Section__Container">
-      <div className="Section__frontEnd">
+    <ul className="Section__Container">
+      <li className="Section__frontEnd">
         Front-end
         <p>
           <strong>Langages :</strong> Javascript
@@ -15,8 +14,8 @@ export default function Section() {
         <p>
           <strong>Intégration Web:</strong> HTML , CSS , SASS
         </p>
-      </div>
-      <div className="Section__Backend">
+      </li>
+      <li className="Section__Backend">
         Back-end
         <p>
           <strong>Langages et Frameworks:</strong> Nodejs, Express.js
@@ -27,8 +26,8 @@ export default function Section() {
         <p>
           <strong>API:</strong> Création et consommation d'API REST
         </p>
-      </div>
-      <div className="Section__Outils">
+      </li>
+      <li className="Section__Outils">
         Outils
         <p>
           <strong>Gestion de version:</strong> Git, Github
@@ -36,8 +35,7 @@ export default function Section() {
         <p>
           <strong>Environnements:</strong> Visual Studio Code , Github
         </p>
-      </div>
-      <Card />
-    </div>
+      </li>
+    </ul>
   );
 }
