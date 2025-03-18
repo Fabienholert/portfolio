@@ -10,14 +10,11 @@
       font-size: 30px;
     }
 
-    ul {
-      transform: translate3d(-247.5%, 0px, 0px);
-      transition-duration: 350ms;
-    }
-
-    li {
+    li .Section__frontEnd {
       color: black;
       font-size: medium;
+      transform: translate3d(-247.5%, 0px, 0px);
+      transition-duration: 350ms;
     }
   }
 }
