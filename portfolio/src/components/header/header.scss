@@ -15,6 +15,11 @@
     margin-right: 2%;
   }
 
+  &__nav :hover {
+    text-decoration: underline 5px;
+    color: black;
+  }
+
   &__link {
     text-decoration: none;
     color: #1d3b31;
