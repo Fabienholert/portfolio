@@ -26,7 +26,7 @@ export default function Home() {
         </p>
       </div>
       <Section />
-      <Projets />
+      <Projets id="mes_projets"> </Projets>
       <Formulaire />
     </div>
   );
