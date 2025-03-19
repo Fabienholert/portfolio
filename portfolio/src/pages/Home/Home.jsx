@@ -1,5 +1,5 @@
 import React from "react";
-import Photo from "../../assets/moi.webp";
+import Photo from "../../assets/images/moi.webp";
 import Projets from "../../components/projets/projets";
 import Section from "../../components/section/Section";
 import "./Home.scss";
