@@ -1,4 +1,7 @@
+import Splide from "@splidejs/splide";
 import "./section.scss";
+
+new Splide(".splide").mount();
 
 export default function Section() {
   return (
