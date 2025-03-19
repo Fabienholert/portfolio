@@ -4,7 +4,7 @@ import "./projets.scss";
 
 export default function Projets() {
   return (
-    <div className="projets__container">
+    <div id="mes_projets" className="projets__container">
       <h2>Mes projets</h2>
       <Filtres />
       <Card />
