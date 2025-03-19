@@ -1,18 +1,31 @@
 .home {
   &__nom {
-    font-size: 116px;
+    font-size: 30px;
     color: black;
     font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
       "Lucida Sans", Arial, sans-serif;
     margin-left: 10%;
   }
+  &__titre {
+    font-size: 32px;
+    margin-left: 10%;
+  }
 
   &__photo {
-    width: 15%; // Remplacez par votre taille
-    height: 150px; // Assurez-vous que la hauteur est égale à la largeur
+    width: 15%;
+    height: 150px;
     border-radius: 50%;
     object-fit: cover;
     display: flex;
     margin-left: 10%;
   }
+}
+.bouton__mesprojets {
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 5px;
+  background: #8bceb6;
+  text-decoration: none;
+  color: black;
+  margin-left: 10%;
 }

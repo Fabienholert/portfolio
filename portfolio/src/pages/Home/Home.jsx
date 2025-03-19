@@ -7,8 +7,14 @@ export default function Home() {
   return (
     <div>
       <div className="home__Container">
-        <h2 className="home__nom">Fabien Holert</h2>
-        <h3 className="home__poste">Développeur Web</h3>
+        <h1 className="home__nom">Bienvenue, je suis Fabien Holert</h1>
+        <h2 className="home__titre">
+          <strong> Développeur Web</strong>
+        </h2>
+        <a href="#mes_projets" className="bouton__mesprojets">
+          Mes projets
+        </a>
+
         <img src={Photo} alt="moi" className="home__photo" />
         <p className="home__description">
           Passionné par le développement web, je suis actuellement en formation
