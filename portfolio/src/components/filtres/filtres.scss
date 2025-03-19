@@ -1,5 +1,16 @@
-div.filtrer {
-  display: flex;
-  border: 1px solid #e0e0e0;
-  background: red;
+.filter {
+  border: solid 1px #8bceb6;
+  border-radius: 20px;
+  padding: 10px 50px 10px 50px;
+  background: #8bceb6;
+  width: 60%;
+}
+
+.filter__button {
+  background-color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 10px;
+  margin: 30px;
+  width: 16%;
 }
