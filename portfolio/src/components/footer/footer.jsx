@@ -1,5 +1,5 @@
-import LogoGit from "../../assets/logogit.png";
-import LogoLink from "../../assets/logolink.png";
+import LogoGit from "../../assets/images/logogit.png";
+import LogoLink from "../../assets/images/logolink.png";
 import "./footer.scss";
 
 export default function Footer() {

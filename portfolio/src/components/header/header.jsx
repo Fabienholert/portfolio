@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom";
-import MonLogo from "../../assets/monlogo.png";
+import MonLogo from "../../assets/images/monLogo.png";
 import "./header.scss";
 
 export default function Header() {

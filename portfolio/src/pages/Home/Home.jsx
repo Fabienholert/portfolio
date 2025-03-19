@@ -1,5 +1,6 @@
 import React from "react";
 import Photo from "../../assets/images/moi.webp";
+import Formulaire from "../../components/formulaire/formulaire";
 import Projets from "../../components/projets/projets";
 import Section from "../../components/section/Section";
 import "./Home.scss";
@@ -26,6 +27,7 @@ export default function Home() {
       </div>
       <Section />
       <Projets />
+      <Formulaire />
     </div>
   );
 }
