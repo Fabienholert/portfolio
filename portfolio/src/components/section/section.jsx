@@ -3,7 +3,7 @@ import "./section.scss";
 export default function Section() {
   return (
     <section class="splide" aria-labelledby="carousel-heading">
-      <h2 id="carousel-heading">Splide Basic HTML Example</h2>
+      <h2 id="carousel-heading">Mes Compétences</h2>
 
       <div class="splide__track">
         <ul class="splide__list">
