@@ -30,10 +30,13 @@
     border-radius: 20px;
   }
 
-  a {
+  &__button {
     display: flex;
     justify-content: end;
     margin-right: 24%;
+    border: black 1px solid;
+    padding: 20px;
+    width: auto;
   }
 
   &__presentation {

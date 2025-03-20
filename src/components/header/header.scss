@@ -10,6 +10,8 @@
   &__nav {
     display: flex;
     align-items: center;
+    width: 100%;
+    justify-content: start;
   }
 
   &__nav :hover {
@@ -17,10 +19,10 @@
     color: black;
   }
 
-  &__link {
+  .bouton__mesprojets {
     text-decoration: none;
     color: #1d3b31;
-    font-size: larger;
+    font-size: 14px;
     font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
       "Lucida Sans", Arial, sans-serif;
   }
