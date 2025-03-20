@@ -20,15 +20,15 @@ export default function Home() {
             Mes projets
           </a>
         </div>
-        <div className="home__presentation">
-          <img src={Photo} alt="photo de moi" className="home__photo" />
-          <p id="presentation" className="home__description">
-            Passionné par le développement web, je suis actuellement en
-            formation chez OpenClassrooms pour devenir développeur web. J'ai
-            acquis des compétences en HTML, CSS, Javascript, React, Nodejs,
-            Express.js et MongoDB.
-          </p>
-        </div>
+      </div>
+      <div className="home__presentation">
+        <img src={Photo} alt="photo de moi" className="home__photo" />
+        <p id="presentation" className="home__description">
+          Passionné par le développement web, je suis actuellement en formation
+          chez OpenClassrooms pour devenir développeur web. J'ai acquis des
+          compétences en HTML, CSS, Javascript, React, Nodejs, Express.js et
+          MongoDB.
+        </p>
       </div>
       <Section />
       <Projets />
