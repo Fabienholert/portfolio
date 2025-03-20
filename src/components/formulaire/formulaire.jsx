@@ -8,7 +8,7 @@ export default function Formulaire() {
         <input type="text" placeholder="Nom" />
         <input type="email" placeholder="Email" />
         <input type="text" placeholder="Objet" />
-        <textarea placeholder="Message"></textarea>
+        <textarea type="text" placeholder="Message" className="message" />
         <button type="submit">Envoyer</button>
       </form>
     </div>
