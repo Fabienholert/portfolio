@@ -1,23 +1,32 @@
 .home {
+  &__banner {
+    display: flex;
+    flex-direction: column;
+  }
   &__nom {
     font-size: 30px;
     color: black;
     font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
       "Lucida Sans", Arial, sans-serif;
-    margin-left: 10%;
   }
   &__titre {
     font-size: 32px;
-    margin-left: 10%;
   }
 
+  &__dev {
+    width: 15%;
+    float: left;
+  }
+
+  &__presentation {
+    display: flex;
+    flex-direction: column;
+  }
   &__photo {
     width: 15%;
     height: 150px;
     border-radius: 50%;
     object-fit: cover;
-    display: flex;
-    margin-left: 10%;
   }
 }
 .bouton__mesprojets {
