@@ -16,7 +16,7 @@ export default function Home() {
           <h2 className="home__titre">
             <strong> Développeur Web</strong>
           </h2>
-          <a href="#mes_projets" className="bouton__mesprojets">
+          <a href="#mes_projets" className="home__button">
             Mes projets
           </a>
         </div>
