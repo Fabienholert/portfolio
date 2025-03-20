@@ -1,6 +1,20 @@
 import MonLogo from "../../assets/images/monLogo.png";
 import "./header.scss";
 
+window.addEventListener("scroll", function () {
+  const header = document.querySelector(".header");
+  const scrollPosition = window.scrollY;
+
+  if (scrollPosition > 50) {
+    // Ajustez la valeur 50 selon vos besoins
+    header.classList.add("scrolled");
+    header.classList.remove("scrolled-up");
+  } else {
+    header.classList.remove("scrolled");
+    header.classList.add("scrolled-up");
+  }
+});
+
 export default function Header() {
   return (
     <header className="header">
