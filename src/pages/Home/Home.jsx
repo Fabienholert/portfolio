@@ -18,7 +18,7 @@ export default function Home() {
         </a>
 
         <img src={Photo} alt="moi" className="home__photo" />
-        <p className="home__description">
+        <p id="presentation" className="home__description">
           Passionné par le développement web, je suis actuellement en formation
           chez OpenClassrooms pour devenir développeur web. J'ai acquis des
           compétences en HTML, CSS, Javascript, React, Nodejs, Express.js et
