@@ -7,7 +7,7 @@ import Projet2 from "./pages/projet2/projet2.jsx";
 
 export default function App() {
   return (
-    <div className="App">
+    <div id="accueil" className="App">
       <BrowserRouter>
         <Routes>
           <Route element={<Layout />}>

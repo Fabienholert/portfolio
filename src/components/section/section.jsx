@@ -4,8 +4,8 @@ import "./section.scss";
 
 export default function Section() {
   return (
-    <div id="competences" className="section">
-      <h2>Compétences</h2>
+    <div className="section">
+      <h2 id="competences">Compétences</h2>
       <div className="section__text">
         <Splide aria-label="My Favorite Images">
           <SplideSlide>
