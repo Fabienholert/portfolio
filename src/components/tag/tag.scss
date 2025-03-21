@@ -1,0 +1,9 @@
+.tag {
+  display: flex;
+  gap: 5px;
+  &__item {
+    border-radius: 5px;
+    background: #8bceb6;
+    padding: 5px;
+  }
+}

@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
-import Project from "../../assets/json/projets.json"; // Importation du fichier JSON
+import Project from "../../assets/json/projets.json";
+import Tag from "../tag/tag.jsx";
 import "./card.scss";
 
 function Card() {
@@ -18,9 +19,7 @@ function Card() {
             <div className="details__description">
               {project.card.details.description}
             </div>
-            <div className="details__tags">
-              {project.card.details.tags.join(", ")}
-            </div>
+            <Tag tags={project.card.details.tags} />
             <div className="details__info">{project.card.details.info}</div>
           </div>
           <h3 className="details__title">{project.card.title}</h3>
