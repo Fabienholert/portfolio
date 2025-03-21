@@ -1,4 +1,9 @@
 .projets__container {
-  display: flex;
-  justify-content: center;
+  .card {
+    display: grid;
+    width: 100%;
+    gap: 50px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
 }

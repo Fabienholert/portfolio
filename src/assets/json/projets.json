@@ -32,14 +32,6 @@
         "rightColon": {
           "links": [
             {
-              "text": "Lien vers le portfolio en ligne",
-              "href": "lien_vers_le_portfolio"
-            },
-            {
-              "text": "Lien vers la carte mentale Miro des compétences",
-              "href": "lien_vers_carte_mentale_miro"
-            },
-            {
               "text": "Lien vers le code source du portfolio (GitHub)",
               "href": "lien_vers_le_code_source_github"
             }

@@ -6,22 +6,14 @@ function Card() {
   const [projects, setProjects] = useState([]);
 
   useEffect(() => {
-    // async function fetchData() { // Pas besoin de fonction async si on utilise directement l'import
-    //   const response = await fetch({ Project }); // INCORRECT : on fetch pas un objet importé
-    //   const data = await response.json();
-    //   setProjects(data);
-    // }
-    // fetchData();
-
-    // Utilisation directe du fichier JSON importé
     setProjects(Project);
   }, []);
 
   return (
-    <div>
+    <div className="card">
       {projects.map((project) => (
-        <div className="card" key={project.id}>
-          <div className="card_details">
+        <div className="card__container" key={project.id}>
+          <div className="card__details">
             <div className="details__title">{project.card.details.title}</div>
             <div className="details__description">
               {project.card.details.description}
