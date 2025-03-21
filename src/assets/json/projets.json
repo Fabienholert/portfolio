@@ -1,113 +1,363 @@
 [
   {
-    "id": "projet1",
+    "id": "portfolio-developpeur",
     "card": {
       "details": {
-        "title": "Nom du Projet 1",
-        "description": "Courte description du projet 1. Expliquez brièvement le but et le résultat.",
-        "tags": ["React", "Node.js", "Express", "MongoDB"],
-        "info": "Informations supplémentaires (date de réalisation, équipe, etc.)"
+        "title": "Création d'un Portfolio de Développeur Web",
+        "description": "Réalisation d'un portfolio en ligne pour présenter mes compétences, projets et objectifs de carrière en tant que développeur web.",
+        "tags": [
+          "Portfolio",
+          "HTML",
+          "CSS",
+          "JavaScript",
+          "React",
+          "Design Web"
+        ],
+        "info": "Projet de préparation à la recherche d'emploi."
       },
-      "image": "url_de_l_image_projet1.jpg",
-      "title": "Nom du Projet 1"
+      "image": "url_de_l_image_portfolio.jpg",
+      "title": "Portfolio Développeur"
     },
     "modal": {
-      "title": "Nom du Projet 1 (Détail)",
+      "title": "Développement d'un Portfolio de Développeur Web",
       "content": {
         "context": {
           "title": "Contexte du Projet",
-          "description": "Description détaillée du contexte du projet et de sa nécessité."
+          "description": "Ce projet vise à créer un portfolio en ligne pour mettre en avant mes compétences, les projets réalisés et mon objectif de carrière en tant que développeur web. Il inclut un bilan des compétences, la clarification de l'objectif d'embauche et le développement du site portfolio lui-même."
         },
         "challenge": {
           "title": "Défis Rencontrés",
-          "description": "Description des défis techniques ou de conception rencontrés et de comment ils ont été résolus."
+          "description": "Les défis comprennent l'auto-évaluation honnête des compétences, l'identification des offres d'emploi cibles, la conception et le développement d'un site portfolio attrayant et fonctionnel, la mise en valeur des compétences et des projets, et l'optimisation du code et de l'interface pour démontrer mes compétences techniques."
         },
         "rightColon": {
           "links": [
             {
-              "text": "Voir le code source",
-              "href": "lien_vers_le_code_source_projet1"
+              "text": "Lien vers le portfolio en ligne",
+              "href": "lien_vers_le_portfolio"
             },
             {
-              "text": "Voir le projet en ligne",
-              "href": "lien_vers_le_projet_en_ligne_projet1"
+              "text": "Lien vers la carte mentale Miro des compétences",
+              "href": "lien_vers_carte_mentale_miro"
+            },
+            {
+              "text": "Lien vers le code source du portfolio (GitHub)",
+              "href": "lien_vers_le_code_source_github"
             }
           ],
-          "technologies": ["JavaScript", "HTML", "CSS", "API Rest"]
+          "technologies": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "React",
+            "Miro",
+            "Design Web"
+          ]
         }
       }
     }
   },
   {
-    "id": "projet2",
+    "id": "menu-maker",
     "card": {
       "details": {
-        "title": "Nom du Projet 2",
-        "description": "Courte description du projet 2.",
-        "tags": ["Python", "Django", "PostgreSQL"],
-        "info": "Date de réalisation : Juin 2023"
+        "title": "Préparation et Planification du Projet Menu Maker",
+        "description": "Développement d'un Menu Maker pour l'agence Webgencia, incluant la création des spécifications techniques, du tableau Kanban et du système de veille technologique.",
+        "tags": [
+          "Gestion de Projet",
+          "Spécifications Techniques",
+          "Kanban",
+          "Veille Technologique"
+        ],
+        "info": "Mission de remplacement pour la préparation et la planification du projet."
       },
-      "image": "url_de_l_image_projet2.jpg",
-      "title": "Nom du Projet 2"
+      "image": "url_de_l_image_menu_maker.jpg",
+      "title": "Menu Maker - Planification"
     },
     "modal": {
-      "title": "Nom du Projet 2 (Détail)",
+      "title": "Planification et Spécifications Techniques du Menu Maker",
       "content": {
         "context": {
           "title": "Contexte du Projet",
-          "description": "Description détaillée du contexte du projet 2."
+          "description": "En remplacement du Product Owner, la mission consiste à préparer et planifier le développement d'un Menu Maker pour un client de l'agence Webgencia. Cela inclut la rédaction du document de spécifications techniques, la création et la gestion du tableau Kanban, et la mise en place d'un système de veille technologique."
         },
         "challenge": {
           "title": "Défis Rencontrés",
-          "description": "Description des défis rencontrés lors du projet 2."
+          "description": "Les défis comprennent la compréhension des besoins du client, la rédaction de spécifications techniques claires et complètes, la création d'un tableau Kanban efficace pour la gestion des tâches, la mise en place d'un système de veille pour rester informé des dernières technologies, et la présentation du projet à Soufiane et au client."
         },
         "rightColon": {
           "links": [
             {
-              "text": "Voir le code source",
-              "href": "lien_vers_le_code_source_projet2"
+              "text": "Lien vers le document de spécifications techniques",
+              "href": "lien_vers_document_specifications_techniques"
+            },
+            {
+              "text": "Lien vers le tableau Kanban (Notion)",
+              "href": "lien_vers_tableau_kanban_notion"
+            },
+            {
+              "text": "Lien vers la présentation du projet",
+              "href": "lien_vers_presentation_projet"
             }
           ],
-          "technologies": ["Python", "Django", "PostgreSQL", "Bootstrap"]
+          "technologies": [
+            "Gestion de Projet",
+            "Spécifications Techniques",
+            "Kanban (Notion)",
+            "Veille Technologique (Feedly)"
+          ]
         }
       }
     }
   },
   {
-    "id": "projet3",
+    "id": "mon-vieux-grimoire",
     "card": {
       "details": {
-        "title": "Nom du Projet 3",
-        "description": "Courte description du projet 3. Expliquez brièvement le but et le résultat.",
-        "tags": ["Vue.js", "Firebase"],
-        "info": "Projet personnel"
+        "title": "API Back-End pour Mon Vieux Grimoire",
+        "description": "Développement back-end de l'API pour un site de référencement et de notation de livres, en collaboration avec un développeur front-end.",
+        "tags": ["Node.js", "Express", "MongoDB", "API", "Back-end"],
+        "info": "Mission freelance en partenariat avec un développeur front-end expérimenté."
       },
-      "image": "url_de_l_image_projet3.jpg",
-      "title": "Nom du Projet 3"
+      "image": "url_de_l_image_mon_vieux_grimoire.jpg",
+      "title": "Mon Vieux Grimoire"
     },
     "modal": {
-      "title": "Nom du Projet 3 (Détail)",
+      "title": "Développement Back-End API - Mon Vieux Grimoire",
       "content": {
         "context": {
           "title": "Contexte du Projet",
-          "description": "Description détaillée du contexte du projet 3 et de sa nécessité."
+          "description": "Développement de l'API back-end pour le site \"Mon Vieux Grimoire\", une plateforme de référencement et de notation de livres. Le projet est réalisé en collaboration avec un développeur front-end (Kévin) qui s'occupe de l'interface utilisateur en React."
         },
         "challenge": {
           "title": "Défis Rencontrés",
-          "description": "Description des défis techniques ou de conception rencontrés et de comment ils ont été résolus sur le projet 3."
+          "description": "Les défis incluent la mise en place d'une API robuste et performante, le respect des spécifications techniques de l'API fournies par Kévin, l'intégration avec le front-end React, l'optimisation des images (Green Code) et la gestion de la base de données pour stocker les livres et les notes des utilisateurs."
+        },
+        "rightColon": {
+          "links": [
+            {
+              "text": "Lien vers les spécifications techniques de l'API",
+              "href": "lien_vers_les_specifications_techniques_api"
+            },
+            {
+              "text": "Lien vers le code front-end (GitHub)",
+              "href": "lien_vers_le_code_frontend_github"
+            },
+            {
+              "text": "Lien vers le code back-end (GitHub)",
+              "href": "lien_vers_le_code_backend_github"
+            }
+          ],
+          "technologies": [
+            "Node.js",
+            "Express",
+            "MongoDB",
+            "REST API",
+            "Green Code",
+            "Image Optimization"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "id": "kasa-refonte",
+    "card": {
+      "details": {
+        "title": "Refonte du Site Kasa (React)",
+        "description": "Développement front-end en React pour la refonte du site de location d'appartements Kasa.",
+        "tags": [
+          "React",
+          "JavaScript",
+          "Frontend",
+          "Vite",
+          "Responsive Design"
+        ],
+        "info": "Mission freelance pour implémenter la nouvelle interface utilisateur."
+      },
+      "image": "url_de_l_image_kasa.jpg",
+      "title": "Refonte Kasa"
+    },
+    "modal": {
+      "title": "Développement Front-end React - Refonte du Site Kasa",
+      "content": {
+        "context": {
+          "title": "Contexte du Projet",
+          "description": "Développement de l'application React complète pour la refonte du site Kasa, une entreprise de location d'appartements entre particuliers. Le projet inclut l'implémentation des composants React, des routes React Router, en suivant les maquettes Figma fournies et les coding guidelines de Kasa."
+        },
+        "challenge": {
+          "title": "Défis Rencontrés",
+          "description": "Les défis comprennent l'utilisation de Vite pour la création de l'application React, le travail sans back-end initial (utilisation d'un fichier JSON de données), le respect des maquettes Figma (responsives), l'implémentation des fonctionnalités spécifiques de la galerie d'images et des composants Collapse, et le respect des coding guidelines de Kasa."
+        },
+        "rightColon": {
+          "links": [
+            {
+              "text": "Lien vers les maquettes Figma",
+              "href": "lien_vers_les_maquettes_figma_kasa"
+            },
+            {
+              "text": "Lien vers le prototype du site",
+              "href": "lien_vers_le_prototype_site_kasa"
+            },
+            {
+              "text": "Lien vers les coding guidelines",
+              "href": "lien_vers_les_coding_guidelines_kasa"
+            },
+            {
+              "text": "Lien vers le code source (GitHub)",
+              "href": "lien_vers_le_code_source_kasa"
+            }
+          ],
+          "technologies": [
+            "React",
+            "JavaScript",
+            "Vite",
+            "React Router",
+            "Figma",
+            "JSON",
+            "Responsive Design"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "id": "nina-carducci-seo",
+    "card": {
+      "details": {
+        "title": "Optimisation SEO du Site Nina Carducci",
+        "description": "Optimisation SEO, performances et accessibilité du site web de la photographe Nina Carducci.",
+        "tags": [
+          "SEO",
+          "Performance",
+          "Accessibilité",
+          "HTML",
+          "CSS",
+          "JavaScript"
+        ],
+        "info": "Mission freelance pour améliorer la visibilité et l'expérience utilisateur."
+      },
+      "image": "url_de_l_image_nina_carducci.jpg",
+      "title": "SEO Nina Carducci"
+    },
+    "modal": {
+      "title": "Optimisation SEO et Corrections du Site Nina Carducci",
+      "content": {
+        "context": {
+          "title": "Contexte du Projet",
+          "description": "En tant que développeur freelance, la mission consiste à optimiser le site web de la photographe Nina Carducci pour améliorer son référencement, ses performances, son accessibilité et corriger les bugs existants."
+        },
+        "challenge": {
+          "title": "Défis Rencontrés",
+          "description": "Les défis comprennent l'optimisation des images et du code, l'implémentation du référencement local avec Schema.org, l'ajout des métas pour les réseaux sociaux, l'amélioration de l'accessibilité, la correction des bugs dans la galerie et le filtre de catégories, et la production d'un rapport d'optimisation détaillé."
+        },
+        "rightColon": {
+          "links": [
+            {
+              "text": "Lien vers le site Nina Carducci",
+              "href": "https://nina-carducci.github.io"
+            },
+            {
+              "text": "Lien vers le repo GitHub (avant optimisation)",
+              "href": "lien_vers_le_repo_github_avant"
+            },
+            {
+              "text": "Lien vers le repo GitHub (après optimisation)",
+              "href": "lien_vers_le_repo_github_apres"
+            }
+          ],
+          "technologies": [
+            "SEO",
+            "Performance",
+            "Accessibilité",
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "Schema.org",
+            "Lighthouse",
+            "Wave"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "id": "archiwebos-portfolio",
+    "card": {
+      "details": {
+        "title": "Portfolio Architecte d'Intérieur - ArchiWebos",
+        "description": "Développement front-end du site portfolio d'une architecte d'intérieur pour l'agence ArchiWebos.",
+        "tags": ["React", "JavaScript", "API", "Frontend"],
+        "info": "Projet de renfort au sein d'une équipe de développement front-end."
+      },
+      "image": "url_de_l_image_archiwebos_portfolio.jpg",
+      "title": "Portfolio Architecte"
+    },
+    "modal": {
+      "title": "Développement Front-end - Portfolio Architecte d'Intérieur",
+      "content": {
+        "context": {
+          "title": "Contexte du Projet",
+          "description": "Intégré à l'équipe front-end de l'agence ArchiWebos, le projet consiste à développer le site portfolio d'une architecte d'intérieur. Les missions comprennent le développement de la page de présentation des travaux, la page de connexion de l'administrateur et une modale d'upload de médias."
+        },
+        "challenge": {
+          "title": "Défis Rencontrés",
+          "description": "Les défis incluent l'intégration du design Figma, l'utilisation du code back-end existant, le développement de la page de connexion et de la modale d'upload à partir de zéro, et la collaboration avec l'équipe via un Kanban."
+        },
+        "rightColon": {
+          "links": [
+            {
+              "text": "Lien vers le Figma",
+              "href": "lien_vers_le_figma"
+            },
+            {
+              "text": "Voir le code source",
+              "href": "lien_vers_le_code_source_archiwebos"
+            }
+          ],
+          "technologies": [
+            "React",
+            "JavaScript",
+            "HTML",
+            "CSS",
+            "API Rest",
+            "Figma",
+            "Kanban"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "id": "booki",
+    "card": {
+      "details": {
+        "title": "Booki - Trouvez votre hébergement et vos activités",
+        "description": "Intégration de l'interface du site Booki (HTML/CSS) permettant aux usagers de trouver des hébergements et des activités dans la ville de leur choix.",
+        "tags": ["HTML", "CSS", "Responsive Design"],
+        "info": "Projet d'alternance au sein de la start-up Booki."
+      },
+      "image": "url_de_l_image_de_booki.jpg",
+      "title": "Booki"
+    },
+    "modal": {
+      "title": "Booki - Intégration d'une Interface Web",
+      "content": {
+        "context": {
+          "title": "Contexte du Projet",
+          "description": "Développement de l'interface web du site Booki, une plateforme permettant de trouver des hébergements et des activités dans différentes villes. Le projet est réalisé en collaboration avec la CTO et l'UI designer de l'entreprise."
+        },
+        "challenge": {
+          "title": "Défis Rencontrés",
+          "description": "Les principaux défis étaient de respecter les maquettes (desktop, tablette et mobile), d'assurer la responsivité du site, et de suivre les spécifications et contraintes techniques fournies par l'équipe. Il a aussi fallu bien organiser le code et versionner le projet avec Git."
         },
         "rightColon": {
           "links": [
             {
               "text": "Voir le code source",
-              "href": "lien_vers_le_code_source_projet3"
-            },
-            {
-              "text": "Voir le projet en ligne",
-              "href": "lien_vers_le_projet_en_ligne_projet3"
+              "href": "lien_vers_le_code_source_github_booki"
             }
           ],
-          "technologies": ["JavaScript", "HTML", "CSS", "Vue.js", "Firebase"]
+          "technologies": ["HTML", "CSS", "Responsive Design", "Git"]
         }
       }
     }
