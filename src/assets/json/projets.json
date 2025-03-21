@@ -1,6 +1,7 @@
 [
   {
     "id": "portfolio-developpeur",
+    "categorie": "Frontend",
     "card": {
       "details": {
         "title": "Création d'un Portfolio de Développeur Web",
@@ -50,6 +51,7 @@
   },
   {
     "id": "menu-maker",
+    "categorie": "Gestion de Projet",
     "card": {
       "details": {
         "title": "Préparation et Planification du Projet Menu Maker",
@@ -103,6 +105,7 @@
   },
   {
     "id": "mon-vieux-grimoire",
+    "categorie": "Backend",
     "card": {
       "details": {
         "title": "API Back-End pour Mon Vieux Grimoire",
@@ -146,13 +149,15 @@
             "REST API",
             "Green Code",
             "Image Optimization"
-          ]
+          ],
+          "categorie": "Backend"
         }
       }
     }
   },
   {
     "id": "kasa-refonte",
+    "categorie": "Frontend",
     "card": {
       "details": {
         "title": "Refonte du Site Kasa (React)",
@@ -214,6 +219,7 @@
   },
   {
     "id": "nina-carducci-seo",
+    "categorie": "Frontend",
     "card": {
       "details": {
         "title": "Optimisation SEO du Site Nina Carducci",
@@ -274,6 +280,7 @@
   },
   {
     "id": "archiwebos-portfolio",
+    "categorie": "Frontend",
     "card": {
       "details": {
         "title": "Portfolio Architecte d'Intérieur - ArchiWebos",
@@ -321,6 +328,7 @@
   },
   {
     "id": "booki",
+    "categorie": "Frontend",
     "card": {
       "details": {
         "title": "Booki - Trouvez votre hébergement et vos activités",

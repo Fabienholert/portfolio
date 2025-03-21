@@ -1,12 +1,16 @@
+import React, { useEffect, useState } from "react";
 import "./filtre.scss";
 
-export default function Filtres() {
-  return (
-    <div className="filter">
-      <button className="filter__button">Tous</button>
-      <button className="filter__button">Front-end</button>
-      <button className="filter__button">Back-end</button>
-      <button className="filter__button">Gestion de projet</button>
-    </div>
-  );
+function Filtre() {
+  const [datas, setDatas] = useState([]);
+  useEffect(() => {
+   
+  }, []);
+
+  console.log(datas);
+ <div className="filtres">{datas.map()=> {
+  return (<div></div>)
+  }}</div>;
 }
+
+export default Filtre;
