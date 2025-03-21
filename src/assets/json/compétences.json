@@ -1,0 +1,36 @@
+{
+  "competences": {
+    "frontEnd": {
+      "technologie": [
+        "JavaScript",
+        "React",
+        "HTML",
+        "CSS",
+        "SASS",
+        "Webpack",
+        "Babel",
+        "ESLint"
+      ]
+    },
+    "backEnd": {
+      "technologie": [
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "Mongoose",
+        "JWT",
+        "RESTful API design"
+      ]
+    },
+    "outils": {
+      "technologie": [
+        "Git",
+        "GitHub",
+        "Visual Studio Code",
+        "npm",
+        "Yarn",
+        "VS Code Extensions"
+      ]
+    }
+  }
+}
