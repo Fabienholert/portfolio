@@ -1,15 +1,8 @@
-import React, { useEffect, useState } from "react";
-import Project from "../../assets/json/projets.json";
+import React from "react";
 import Tag from "../tag/tag.jsx";
 import "./card.scss";
 
 function Card() {
-  const [projects, setProjects] = useState([]);
-
-  useEffect(() => {
-    setProjects(Project);
-  }, []);
-
   return (
     <div className="card">
       {projects.map((project) => (

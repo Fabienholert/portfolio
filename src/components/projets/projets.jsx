@@ -7,7 +7,9 @@ export default function Projets() {
     <div id="mes_projets" className="projets__container">
       <h2>Mes projets</h2>
       <Filtres />
-      <Card />
+      <div className="projets__cards">
+        <Card />
+      </div>
     </div>
   );
 }
