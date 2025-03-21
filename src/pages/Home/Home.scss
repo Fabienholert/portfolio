@@ -50,6 +50,12 @@
     border-radius: 50%;
     object-fit: cover;
   }
+  &__contact {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+  }
 }
 .bouton__mesprojets {
   border: 1px solid black;

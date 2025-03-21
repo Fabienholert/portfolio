@@ -32,6 +32,7 @@ export default function Home() {
       </div>
       <Section />
       <Projets />
+      <h2 className="home__contact">Contactez-moi</h2>
       <Formulaire />
     </div>
   );
