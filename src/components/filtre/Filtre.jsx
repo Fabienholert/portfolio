@@ -1,4 +1,4 @@
-import "./filtres.scss";
+import "./filtre.scss";
 
 export default function Filtres() {
   return (
