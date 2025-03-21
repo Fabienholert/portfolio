@@ -1,0 +1,115 @@
+[
+  {
+    "id": "projet1",
+    "card": {
+      "details": {
+        "title": "Nom du Projet 1",
+        "description": "Courte description du projet 1. Expliquez brièvement le but et le résultat.",
+        "tags": ["React", "Node.js", "Express", "MongoDB"],
+        "info": "Informations supplémentaires (date de réalisation, équipe, etc.)"
+      },
+      "image": "url_de_l_image_projet1.jpg",
+      "title": "Nom du Projet 1"
+    },
+    "modal": {
+      "title": "Nom du Projet 1 (Détail)",
+      "content": {
+        "context": {
+          "title": "Contexte du Projet",
+          "description": "Description détaillée du contexte du projet et de sa nécessité."
+        },
+        "challenge": {
+          "title": "Défis Rencontrés",
+          "description": "Description des défis techniques ou de conception rencontrés et de comment ils ont été résolus."
+        },
+        "rightColon": {
+          "links": [
+            {
+              "text": "Voir le code source",
+              "href": "lien_vers_le_code_source_projet1"
+            },
+            {
+              "text": "Voir le projet en ligne",
+              "href": "lien_vers_le_projet_en_ligne_projet1"
+            }
+          ],
+          "technologies": ["JavaScript", "HTML", "CSS", "API Rest"]
+        }
+      }
+    }
+  },
+  {
+    "id": "projet2",
+    "card": {
+      "details": {
+        "title": "Nom du Projet 2",
+        "description": "Courte description du projet 2.",
+        "tags": ["Python", "Django", "PostgreSQL"],
+        "info": "Date de réalisation : Juin 2023"
+      },
+      "image": "url_de_l_image_projet2.jpg",
+      "title": "Nom du Projet 2"
+    },
+    "modal": {
+      "title": "Nom du Projet 2 (Détail)",
+      "content": {
+        "context": {
+          "title": "Contexte du Projet",
+          "description": "Description détaillée du contexte du projet 2."
+        },
+        "challenge": {
+          "title": "Défis Rencontrés",
+          "description": "Description des défis rencontrés lors du projet 2."
+        },
+        "rightColon": {
+          "links": [
+            {
+              "text": "Voir le code source",
+              "href": "lien_vers_le_code_source_projet2"
+            }
+          ],
+          "technologies": ["Python", "Django", "PostgreSQL", "Bootstrap"]
+        }
+      }
+    }
+  },
+  {
+    "id": "projet3",
+    "card": {
+      "details": {
+        "title": "Nom du Projet 3",
+        "description": "Courte description du projet 3. Expliquez brièvement le but et le résultat.",
+        "tags": ["Vue.js", "Firebase"],
+        "info": "Projet personnel"
+      },
+      "image": "url_de_l_image_projet3.jpg",
+      "title": "Nom du Projet 3"
+    },
+    "modal": {
+      "title": "Nom du Projet 3 (Détail)",
+      "content": {
+        "context": {
+          "title": "Contexte du Projet",
+          "description": "Description détaillée du contexte du projet 3 et de sa nécessité."
+        },
+        "challenge": {
+          "title": "Défis Rencontrés",
+          "description": "Description des défis techniques ou de conception rencontrés et de comment ils ont été résolus sur le projet 3."
+        },
+        "rightColon": {
+          "links": [
+            {
+              "text": "Voir le code source",
+              "href": "lien_vers_le_code_source_projet3"
+            },
+            {
+              "text": "Voir le projet en ligne",
+              "href": "lien_vers_le_projet_en_ligne_projet3"
+            }
+          ],
+          "technologies": ["JavaScript", "HTML", "CSS", "Vue.js", "Firebase"]
+        }
+      }
+    }
+  }
+]
