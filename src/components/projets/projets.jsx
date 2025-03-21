@@ -1,5 +1,5 @@
 import Card from "../card/card.jsx";
-import Filtres from "../filtres/filtres.jsx";
+import Filtres from "../filtres/Filtres.jsx";
 import "./projets.scss";
 
 export default function Projets() {

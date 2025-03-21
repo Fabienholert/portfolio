@@ -7,24 +7,6 @@
   top: 0;
   z-index: 100;
 
-  &__nav {
-    display: flex;
-    align-items: center;
-    width: 100%;
-    justify-content: start;
-  }
-
-  &__nav :hover {
-    text-decoration: underline 5px;
-    color: black;
-  }
-
-  .bouton__mesprojets {
-    text-decoration: none;
-    color: #1d3b31;
-    font-size: 14px;
-  }
-
   &__monLogo {
     width: 100px;
     height: 100px;
