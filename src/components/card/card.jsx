@@ -1,16 +1,20 @@
 import React, { useEffect, useState } from "react";
+import Project from "../../assets/json/projets.json"; // Importation du fichier JSON
 import "./card.scss";
 
-function MyComponent() {
+function Card() {
   const [projects, setProjects] = useState([]);
 
   useEffect(() => {
-    async function fetchData() {
-      const response = await fetch("projects.json"); // Chemin vers votre fichier JSON
-      const data = await response.json();
-      setProjects(data);
-    }
-    fetchData();
+    // async function fetchData() { // Pas besoin de fonction async si on utilise directement l'import
+    //   const response = await fetch({ Project }); // INCORRECT : on fetch pas un objet importé
+    //   const data = await response.json();
+    //   setProjects(data);
+    // }
+    // fetchData();
+
+    // Utilisation directe du fichier JSON importé
+    setProjects(Project);
   }, []);
 
   return (
@@ -35,4 +39,4 @@ function MyComponent() {
   );
 }
 
-export default MyComponent;
+export default Card;
