@@ -1,6 +1,6 @@
 import React from "react";
 import Dev from "../../assets/images/dev.jpg";
-import Photo from "../../assets/images/moi.webp";
+import Photo from "../../assets/images/moi.jpg";
 import Competence from "../../components/competence/Competence";
 import Filtres from "../../components/filtre/Filtre";
 import Formulaire from "../../components/formulaire/Formulaire";
