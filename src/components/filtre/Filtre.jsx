@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import projetsFiltres from "../../assets/json/projets.json";
+import "./filtre.scss";
 
 const CategoryFilter = ({ onCategoryChange }) => {
   const [activeCategory, setActiveCategory] = useState("all");
